@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt"
+	"github.com/gin-gonic/gin"
 )
 
 func BuatComment(c *gin.Context) {
